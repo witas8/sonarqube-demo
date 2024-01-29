@@ -17,7 +17,9 @@ public class SonarqubeApplication {
 	@Bean
 	CommandLineRunner commandLineRunner(){
 		return args -> {
-			System.out.println("Sonarqube is super!");
+			System.out.println("Sonarqube is...");
+			wait(1000);
+			System.out.println("...suuuuper!");
 		};
 	}
 
