@@ -18,7 +18,7 @@ public class SonarqubeApplication {
 	CommandLineRunner commandLineRunner(){
 		return args -> {
 			System.out.println("Sonarqube is...");
-			wait(1000);
+			wait(2000);
 			System.out.println("...suuuuper!");
 		};
 	}
